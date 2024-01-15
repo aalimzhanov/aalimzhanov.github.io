@@ -1,3 +1,57 @@
-*{
-    font-family: monaco, monospace;
+:root {
+    --box-sizing: border-box;
+    --padding: 0;
+    --margin: 0;
+    --font-family: monaco, monospace;
+    --header-bg-color: #1F2937;
+    --header-color: #F9FAF8;
+    --header-font-size: 24px;
+}
+
+* {
+    box-sizing: var(--box-sizing);
+    padding: var(--padding);
+    margin: var(--margin);
+    font-family: var(--font-family);
+}
+
+/* Header styling */
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--header-bg-color);
+    color: var(--header-color);
+    font-size: var(--header-font-size);
+    padding: 20px 0;
+}
+.myName{
+    font-weight: bold;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.header-logo{
+    width: 30px;
+    height: 30px;
+}
+
+/* Main text styling */
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 120px;
+    gap: 20px;
+}
+#myPicture{
+    width: 350px;
+    flex-shrink: 0;
+    height: 350px;
+    border-radius: 12px;
 }
