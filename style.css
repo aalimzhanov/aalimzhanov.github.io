@@ -46,7 +46,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 90px 120px;
+    margin: 90px 0px 10px 10px;
     gap: 20px;
 }
 #myPicture{
