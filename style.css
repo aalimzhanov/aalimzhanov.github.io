@@ -46,7 +46,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 90px 0px 10px 10px;
+    margin: 10vh 5vw 5vw;
     gap: 20px;
 }
 #myPicture{
