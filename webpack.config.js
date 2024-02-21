@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'gh-pages/'),
+    path: path.resolve(__dirname, 'docs/'),
   },
   // Add loaders and plugins as needed
 };
