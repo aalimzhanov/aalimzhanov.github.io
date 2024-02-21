@@ -1,0 +1,157 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+:root {
+	--box-sizing: border-box;
+	--padding: 0;
+	--margin: 0;
+	--font-family: monaco, monospace;
+	--header-bg-color: #1f2937;
+	--header-color: #f9faf8;
+	--header-font-size: 24px;
+	--footer-bg-color: #1f2937;
+	--footer-color: #f9faf8;
+	--footer-font-size: 18px;
+}
+
+* {
+	box-sizing: var(--box-sizing);
+	padding: var(--padding);
+	margin: var(--margin);
+	font-family: var(--font-family);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex: 1;
+	overflow-y: auto;
+}
+
+/* Header styling */
+header {
+	display: flex;
+	justify-content: space-around;
+	background-color: var(--header-bg-color);
+	color: var(--header-color);
+	font-size: var(--header-font-size);
+	padding: 20px 0;
+}
+
+
+.my-name {
+	font-weight: bold;
+}
+
+#links {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+#links a {
+	color: #ffffff;
+	font-size: 1.6em;
+}
+
+/* Navbar styling */
+nav {
+	display: flex;
+	gap: 20px;
+}
+
+nav button {
+	flex: auto;
+	border: none;
+	background: none;
+	cursor: pointer;
+	color: inherit;
+	border-radius: 8px;
+	padding: 8px 12px;
+}
+nav button:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	transition: 0.25s;
+	text-decoration: underline;
+}
+
+/* Main text styling */
+#introduction {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5vh 5vw 5vw;
+	gap: 20px;
+}
+
+#myPicture {
+	flex-shrink: 0;
+	height: 50vh;
+	width: auto;
+	border-radius: 3vh;
+}
+
+/* Footer styling */
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: var(--footer-bg-color);
+	color: var(--footer-color);
+	font-size: var(--footer-font-size);
+	padding: 20px 0;
+}
+
+/* Project styling */
+.project {
+	display: flex;
+	text-align: center;
+	padding-top: 5vh;
+	margin: 20px 0;
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+
+.description {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.project .description h1 {
+	color: #333;
+}
+
+.project .description p {
+	color: #555;
+}
+
+.project .link {
+	display: block;
+	background-color: #29371f;
+	color: #ffffff;
+	border-radius: 12px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10px;
+	padding: 8px 5px;
+	width: 30vw;
+}
+
+.project .link:hover {
+	text-decoration: underline;
+}
+
+.project-image img {
+	align-self: center;
+	flex: 2;
+	height: auto;
+	width: 40vw;
+	border-radius: 2vh;
+}
+.project .image {
+	max-width: 100%;
+	height: auto;
+}
