@@ -5,99 +5,67 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Adil Alimzhanov</title>
 
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
 		/>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<main>
-			<div class="introduction-wrapper">
+			<section class="introduction-wrapper">
 				<div class="introduction">
-					<img src="./pics/myPicture.jpg" alt="My pretty face" />
+					<img
+						src="./pics/myPicture.jpg"
+						alt="Portrait of Adil Alimzhanov"
+						loading="lazy"
+					/>
 					<div>
-						<div>
-							<h2>Hi, I'm Adil!</h2>
-							<div class="socials">
-								<a href="https://github.com/aalimzhanov" target="_blank">
+						<header>
+							<h1>Hi, I'm Adil!</h1>
+							<nav class="socials" aria-label="Social links">
+								<a
+									href="https://github.com/aalimzhanov"
+									target="_blank"
+									rel="noopener"
+									aria-label="GitHub"
+								>
 									<i class="fa fa-github"></i>
 								</a>
-							</div>
-						</div>
-						<h3>
-							A fourth-year Computer Science Major at Mount Allison University.
-						</h3>
+							</nav>
+						</header>
+						<h2>
+							Computer Science & Mathematics Graduate from Mount Allison
+							University
+						</h2>
 						<p>
-							I was born in Kazakhstan and lived there until the age of 18. On
-							January 15th, 2021, I packed my suitcase, said goodbye to my
-							family and friends, and moved to Canada. Four years later, I am
-							studying at the top undergraduate university in Canada,
-							majoring in Computer Science and minoring in Maths. Was I
-							expecting all of this when I boarded that plane? Probably not...
-							Am I happy with where I am in life right now? Heck yeah!
+							Originally from Kazakhstan, I moved to Canada in the winter of
+							2021 to pursue higher education at Mount Allison University. I
+							graduated in May 2025 with a Bachelor of Science in Computer
+							Science and Mathematics. Throughout my time at Mount Allison, I
+							actively engaged in campus life through a variety of leadership
+							roles, including serving as International Orientation Chair, Head
+							Mentor, and International Projects Intern. Academically, I worked
+							as a Teaching Assistant for the Data Structures and Algorithms
+							course and as a Research Assistant in the Psychology Department,
+							where I developed software to support data collection for ongoing
+							research. I’m currently seeking a full-time opportunity in
+							software development where I can apply my technical skills,
+							leadership experience, and passion for problem-solving.
 						</p>
 					</div>
 				</div>
-			</div>
-			<div class="project-wrapper">
+			</section>
+			<section class="project-wrapper">
 				<h2>My Work</h2>
-				<div class="projects-container">
-					<div class="project-card">
-						<img src="./pics/tic-tac-toe.png" alt="Tic-Tac-Toe screenshot">
-						<div class="project-header">
-							<h3>Tic-Tac-Toe</h3>
-							<a href="https://github.com/aalimzhanov/front-end-practice/tree/main/tic-tac-toe" target="_blank">
-								<i class="fa fa-github"></i>
-							</a>
-						</div>
-						<p>This a simple Tic-Tac-Toe game I wrote using HTML, CSS, and JavaScript</p>
-						<div class="tech-icons">
-							<i class="fab fa-html5"></i>
-							<i class="fab fa-css3-alt"></i>
-							<i class="fab fa-js"></i>
-						</div>
-					</div>
-					<div class="project-card">
-						<img src="./pics/etch-a-sketch.png" alt="Etch-a-Sketch screenshot">
-						<div class="project-header">
-							<h3>Etch-a-Sketch</h3>
-							<a href="https://github.com/aalimzhanov/front-end-practice/tree/main/etch-a-sketch" target="_blank">
-								<i class="fa fa-github"></i>
-							</a>
-						</div>
-						<p> Digital rendition of the classic drawing toy. Users can select the size of their drawing, glide across the squares to draw, and reset the board.</p>
-						<div class="tech-icons">
-							<i class="fab fa-html5"></i>
-							<i class="fab fa-css3-alt"></i>
-							<i class="fab fa-js"></i>
-						</div>
-					</div>
-					<div class="project-card">
-						<img src="./pics/dashboard.png" alt="Dashboard screenshot">
-						<div class="project-header">
-							<h3>Dashboard</h3>
-							<a href="https://github.com/aalimzhanov/front-end-practice/tree/main/dashboard-project" target="_blank">
-								<i class="fa fa-github"></i>
-							</a>
-						</div>
-						<p> A simple dashboard template</p>
-						<div class="tech-icons">
-							<i class="fab fa-html5"></i>
-							<i class="fab fa-css3-alt"></i>
-							<i class="fab fa-js"></i>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			</div>
+				<div class="projects-container" id="projects-container"></div>
+			</section>
 		</main>
 		<script src="main.js"></script>
 	</body>
