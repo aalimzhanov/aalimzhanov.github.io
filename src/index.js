@@ -1,6 +1,6 @@
 const projects = [
 	{
-		image: "./pics/tic-tac-toe.png",
+		image: "./pics/tic-tac-toe.jpeg",
 		alt: "Screenshot of Tic-Tac-Toe game",
 		title: "Tic-Tac-Toe",
 		github:
@@ -10,7 +10,7 @@ const projects = [
 		tech: ["html5", "css3-alt", "js"],
 	},
 	{
-		image: "./pics/etch-a-sketch.png",
+		image: "./pics/etch-a-sketch.jpeg",
 		alt: "Screenshot of Etch-a-Sketch app",
 		title: "Etch-a-Sketch",
 		github:
@@ -20,7 +20,7 @@ const projects = [
 		tech: ["html5", "css3-alt", "js"],
 	},
 	{
-		image: "./pics/dashboard.png",
+		image: "./pics/dashboard.jpeg",
 		alt: "Screenshot of Dashboard project",
 		title: "Dashboard",
 		github:
