@@ -47,7 +47,7 @@ main {
 	display: flex;
 	align-items: center;
 	width: 90vw;
-	max-width: 900px;
+	max-width: 1200px;
 	padding: 50px 40px 50px 30px;
 	background: var(--card-bg-color);
 	color: var(--card-color);
