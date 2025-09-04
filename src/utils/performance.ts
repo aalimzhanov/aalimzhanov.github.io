@@ -1,7 +1,7 @@
 // src/utils/performance.ts
 export const measureWebVitals = () => {
 	// Web Vitals measurement placeholder
-	console.log('Performance monitoring ready');
+	console.log("Performance monitoring ready");
 };
 
 export const logNavigationTiming = () => {
