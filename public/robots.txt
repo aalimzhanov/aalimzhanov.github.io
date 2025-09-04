@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aalimzhanov.github.io/sitemap.xml
