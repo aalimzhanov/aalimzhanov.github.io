@@ -466,6 +466,9 @@ body {
 }
 
 @media (max-width: 440px) {
+  .hero{
+    min-height: auto;
+  }
 	.hero-image {
 		border-radius: 50%;
 	}
