@@ -34,8 +34,9 @@ const Projects: React.FC = () => {
 			title: "Weather Dashboard",
 			description:
 				"A weather dashboard that provides current conditions and forecasts using external APIs.",
-			technologies: ["JavaScript", "API Integration", "CSS3", "HTML5"],
+			technologies: ["React", "TypeScript", "Vite", "CSS3"],
 			githubUrl: "https://github.com/aalimzhanov/weather-app",
+			liveUrl: "https://aalimzhanov.github.io/weather-app/",
 		},
 		{
 			id: 4,
