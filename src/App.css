@@ -507,3 +507,26 @@ body {
 		gap: 1rem;
 	}
 }
+
+/* MOBILE: DISABLE HERO HOVERS */
+@media (hover: none) {
+	/* Remove hero card hover shadow */
+	.hero-content:hover {
+		box-shadow: none;
+	}
+
+	/* Disable image hover zoom */
+	.hero-image:hover {
+		transform: none;
+	}
+
+	/* Disable socials hover effects */
+	.hero .socials a:hover {
+		transform: none;
+	}
+
+	/* Disable CTA hover styles */
+	.hero .cta-button:hover {
+		transform: none;
+	}
+}
