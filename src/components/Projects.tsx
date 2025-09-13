@@ -37,6 +37,15 @@ const Projects: React.FC = () => {
 			technologies: ["JavaScript", "API Integration", "CSS3", "HTML5"],
 			githubUrl: "https://github.com/aalimzhanov/weather-app",
 		},
+		{
+			id: 4,
+			title: "Notes & ToDos",
+			description:
+				"A collection of small React exercises and components built to practice hooks, state management, and component patterns.",
+			technologies: ["React", "TypeScript", "Vite", "CSS3"],
+			githubUrl: "https://github.com/aalimzhanov/React-Practice",
+			liveUrl: "https://aalimzhanov.github.io/React-Practice/",
+		},
 	];
 
 	return (
