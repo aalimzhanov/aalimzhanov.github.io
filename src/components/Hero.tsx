@@ -1,8 +1,10 @@
-import React from "react";
 import { FaGithub } from "react-icons/fa";
 import headshot from "../assets/headshot.jpeg";
 
-const Hero: React.FC = () => {
+export default function Hero() {
+	// Use Vite base URL to work on GitHub Pages and local dev
+	const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`;
+
 	return (
 		<section id="home" className="hero">
 			<div className="hero-content">
@@ -25,13 +27,21 @@ const Hero: React.FC = () => {
 						Computer Science & Mathematics Graduate from Mount Allison
 						University
 					</h2>
-					<a href="#projects" className="cta-button">
-						View My Work
-					</a>
+					<div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
+						<a href="#projects" className="cta-button">
+							View My Work
+						</a>
+						<a
+							href={resumeUrl}
+							className="cta-button"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							View Resume
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
 	);
-};
-
-export default Hero;
+}
